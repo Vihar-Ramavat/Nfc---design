@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="hidden md:flex w-full fixed top-0 z-50 bg-white shadow">
+        <div class="logo md:w-[20%] p-1 md:m-auto">
+            <img src="assets/img/467059_5792491_1082517_image-removebg-preview.png" class="w-[50%] m-auto" alt="">
+        </div>
+        <div class="w-[60%] p-3 align-middle">
+                <ul class="flex justify-start align-middle gap-5 p-3 text-base font-sans font-semibold mt-1">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Catagories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </div>
+        <div class="flex justify-center gap-5 w-[20%] p-3 text-base font-sans font-semibold align-middle">
+            <button class="flex mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1 mt-1 align-middle">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                  </svg>
+                  
+                <span>login</span></button>
+            <button class="flex mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1 mt-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>
+                  
+                  
+                <span>Cart</span></button>
+        </div>
+    </header>
+
+    <header class="flex md:hidden items-center justify-between m-auto w-full fixed top-0 z-50 bg-white shadow">
+        <div class="logo w-1/2 md:m-auto">
+            <img src="assets/img/467059_5792491_1082517_image-removebg-preview.png" class="w-[50%] ml-4" alt="">
+        </div>
+        <div class="w-1/2 py-3">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span class="mt-1"></span>
+            </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#">Abot</a></li>
+                <li><a class="menu__item" href="#">Product</a></li>
+                <li><a class="menu__item" href="#">Categories</a></li>
+                <li><a class="menu__item" href="#">Contact</a></li>
+                <li><a class="menu__item" href="#">Login</a></li>
+                <li><a class="menu__item" href="#">Cart</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="w-[90%] m-auto md:mt-28 sm:mt-32 mt-16">
+        <div class="w-full md:flex block">
+            <div class="md:w-1/2 md:pl-3 mt-14 ">
+                <h1 class="hidden text-2xl md:text-4xl font-sans font-bold md:flex tracking-wider">Empower Your<br>Business -> Reviewtap<br>NFC Card</h1>
+                <h1 class="md:hidden text-2xl md:text-4xl font-sans font-bold flex text-center  tracking-wider">Empower Your Business -> Reviewtap NFC Card</h1>
+                <ul class="flex mt-5 md:flex md:justify-start justify-center">
+                    <li>
+                        <button class="border rounded-3xl py-2 px-5 bg-green-500 text-white mr-1">Shop Now</button>
+                        <button class="border border-green-500 rounded-3xl py-2 px-5 text-green-500">Get Started</button>
+                    </li>
+                </ul>
+                <p class="mt-7 md:w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nisi nostrum nemo ut sunt provident fugiat sit quasi beatae ullam!</p>
+            </div>
+            <div class="md:w-1/2 m-auto md:p-7 mt-7 md:mt-0 sm:mt-7">
+                <img src="assets/img/419067591_744709494439279_9045691701494034296_n.jpg" class="border rounded-2xl" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="w-[90%] m-auto mt-5">
+        <div class="flex md:w-[96%] m-auto bg-[#fafafa] gap-3 rounded-xl md:p-7 p-3">
+            <div class="w-1/3 text-center">
+                <h1 class="md:text-3xl text-base font-bold">4.9/5</h1>
+                <span class="md:text-xs text-[10px] uppercase font-semibold">Positive Reviews</span>
+            </div>
+            <div class="w-1/3 text-center">
+                <h1 class="md:text-3xl text-base font-bold">10,000+</h1>
+                <span class="md:text-xs text-[10px] uppercase font-semibold">Google Reviews</span>
+            </div>
+            <div class="w-1/3 text-center">
+                <h1 class="md:text-3xl text-base font-bold">4,200+</h1>
+                <span class="md:text-xs text-[10px] uppercase font-semibold">Product Sells</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-[90%] m-auto mt-5">
+        <div class="w-full md:flex block">
+            <div class="md:w-1/2 m-auto md:p-7 mt-7 md:mt-0 sm:mt-7">
+                <img src="assets/img/Screenshot 2024-05-09 135500.png" class="border rounded-2xl" alt="">
+            </div>
+            <div class="md:w-1/2 md:pl-3 mt-14 ">
+                <Span class="text-lg capitalize font-semibold text-yellow-500">About us</Span>
+                <h1 class="md:text-4xl text-3xl font-bold mt-4">Who We Are</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore exercitationem, voluptatibus voluptate labore dolor necessitatibus impedit quaerat repellendus molestias error odio mollitia, fuga autem a vitae velit ut accusantium fugiat doloribus. Nihil, perspiciatis quisquam. impedit quaerat repellendus molestias error odio mollitia, fuga autem a vitae velit ut accusantium fugiat doloribus. Nihil, perspiciatis quisquam.</p>
+            </div>
+            
+        </div>
+    </section>
+</body>
